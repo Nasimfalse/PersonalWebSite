@@ -1,0 +1,32 @@
+
+  *{
+    font-family: 'Antonio', sans-serif;
+    /* font-family: 'Figtree', sans-serif; */
+    margin: 0;
+    padding: 0;
+  }
+  .reff{
+    /* border: 1px solid black; */
+  }
+    body{
+
+    }
+
+    p, i, h1{
+     color:black;
+    }
+    h1{
+      font-size: 360px;
+      /* font-size: 10lvh; */
+    }
+    h2{
+        font-size: 150px;
+    }
+    h3{
+        font-size: 100px;
+    }
+a{
+  color: black;
+  text-decoration: none;
+}
+
