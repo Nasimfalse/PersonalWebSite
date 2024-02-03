@@ -1,6 +1,5 @@
 * {
   font-family: 'Antonio', sans-serif;
-  /* font-family: 'Figtree', sans-serif; */
   margin: 0;
   padding: 0;
 }
@@ -28,7 +27,7 @@ h3 {
   font-size: 100px;
 }
 
-a {
+a, b {
   color: black;
   text-decoration: none;
 }
@@ -38,9 +37,15 @@ p,i,h1 {
 }
 
 
+.secondFont{
+   /* font-family: 'Figtree', sans-serif; */
+   color: grey;
+}
+
 .borderReff {
   border: 1px solid black;
 }
+
 
 
 /* Mobile Size */
