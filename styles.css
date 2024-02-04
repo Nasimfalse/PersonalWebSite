@@ -17,6 +17,7 @@ h1 {
   /* font-size: 100lvw; */
 
   font-size: 315px;
+
 }
 
 h2 {
@@ -43,15 +44,24 @@ p,i,h1 {
 }
 
 .borderReff {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 
 
 /* Mobile Size */
-@media (max-width: 575.98px) {
+@media (max-width: 768px) {
   h1 {
-    font-size: 122px;
+    font-size: 230px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 125px;
   }
 
   h2 {
