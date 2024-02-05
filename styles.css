@@ -16,7 +16,7 @@ img {
 h1 {
   /* font-size: 100lvw; */
 
-  font-size: 315px;
+  font-size: 310px;
 
 }
 
@@ -47,9 +47,17 @@ p,i,h1 {
   /* border: 1px solid black; */
 }
 
+.maxSize{
+  max-width: 950px;
+}
 
 
-/* Mobile Size */
+.tu-contenedor {
+  overflow: hidden;
+}
+
+/* Media Queries */
+
 @media (max-width: 768px) {
   h1 {
     font-size: 230px;
@@ -59,6 +67,8 @@ p,i,h1 {
     font-size: 50px;
   }
 }
+
+
 @media (max-width: 576px) {
   h1 {
     font-size: 125px;
@@ -68,3 +78,12 @@ p,i,h1 {
     font-size: 50px;
   }
 }
+
+
+
+
+
+
+
+ 
+
